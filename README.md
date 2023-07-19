@@ -1,60 +1,61 @@
-# GoKart_CC_BE_Assignment
-I have made a simple command line project using Python with the help of vs code just follow the below steps to overview the experience :)
-
-## GoKart Inventory Management
+# GoKart Inventory Management
 This project provides a command line REPL (Read-Eval-Print Loop) for managing product inventory in GoKart, a quick commerce start-up. 
 The inventory management system allows you to add products to the catalog, add warehouses to store the products, process orders, and 
 perform various operations related to inventory management.
+GoKart_CC_BE_Assignment
+I have made a simple command line project using Python with the help of vs code just follow the below steps to overview the experience :)
 
 ## Installation
 Clone the repository:
-
 git clone https://github.com/your-username/GoKartInventoryManagement.git
 
-#Change into the project directory:
+### Change into the project directory:
 
 cd GoKartInventoryManagement
 
-#Install the required dependencies:
+### Install the required dependencies:
 pip install tabulate
 
 ## Usage
-Run the program:
+### Run the program:
 python manage_inventory.py
 
 Use the command line REPL to interact with the inventory management system. Enter the commands as instructed to perform various operations, such as adding products, warehouses, processing orders, and viewing inventory details.
 
 To quit the program, enter "QUIT" in the command line REPL.
 
-## Command List
+## Command-List
 The following commands are available for managing the product inventory:
 
-ADD PRODUCT - Add a new product to the product catalog.
-ADD WAREHOUSE - Add a new warehouse to store the products.
-ADD STOCK - Add stock quantity to a specific product in a warehouse.
-ADD STATE - Add a new state where GoKart operates.
-VIEW STATE - View the list of states along with the number of warehouses and total stock capacity in each state.
-PROCESS ORDER - Process an order for a customer and fulfill it from the nearest warehouse.
-VIEW ORDERS - View the list of orders punched in the system along with customer ID, order date, fulfillment status, and linked warehouse.
-LIST PRODUCTS - List all products in the product catalog along with the current stock quantity and in-stock warehouses.
-LIST WAREHOUSES - List all warehouses along with the warehouse ID, state, and location (latitude, longitude).
-WAREHOUSE INFO - View information about a specific warehouse, including the available SKUs, warehouse ID, and available storage.
+### ADD PRODUCT - Add a new product to the product catalog.
+### ADD WAREHOUSE - Add a new warehouse to store the products.
+### ADD STOCK - Add stock quantity to a specific product in a warehouse.
+### ADD STATE - Add a new state where GoKart operates.
+### VIEW STATE - View the list of states along with the number of warehouses and total stock capacity in each state.
+### PROCESS ORDER - Process an order for a customer and fulfill it from the nearest warehouse.
+### VIEW ORDERS - View the list of orders punched in the system along with customer ID, order date, fulfillment status, and linked warehouse.
+### LIST PRODUCTS - List all products in the product catalog along with the current stock quantity and in-stock warehouses.
+### LIST WAREHOUSES - List all warehouses along with the warehouse ID, state, and location (latitude, longitude).
+### WAREHOUSE INFO - View information about a specific warehouse, including the available SKUs, warehouse ID, and available storage.
 
 ## PRODUCT AND WAREHOUSE CATALOG:-
-https://github-production-user-asset-6210df.s3.amazonaws.com/88622657/251939348-5b11dc99-f6b4-4c9b-8a06-95b4a14525f2.png
+![Screenshot_20230708_114237](https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/137e7708-397a-4bfb-9dc7-e815cc64b1e5)
+
 
 ## VIEW STATE 
-https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/d355dd2e-18e9-47b5-89ec-2fd439faf02f
+![Screenshot_20230708_114634](https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/59812d74-5362-4728-ad02-eac51cef153a)
+
 
 ## VIEW ORDERS
-https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/04dc9b4a-a3c1-4293-bf94-168fc59fa5ae
+![Screenshot_20230708_114720](https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/db0fcea1-717d-4310-909d-9d76fd75433e)
+
 
 ## LIST PRODUCTS
-https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/d35799b2-146f-4c11-bec2-b9781046d09A
+![Screenshot_20230708_114750](https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/15bfae47-e82f-4113-bbe4-59813db98507)
+
 
 ## LIST WAREHOUSE
-https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/6dff4a76-a8a2-402d-b3a2-9701ae9cc5c1
-
+![Screenshot_20230708_114821](https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/f1308dd8-c9c6-43cc-8e41-66c68914aebf)
 
 
 =========================================================================================================
@@ -74,7 +75,8 @@ To achieve continuous integration and continuous deployment, I implemented the f
 Version Control: Used Git to manage code and collaborate with the development team in the future.
 Continuous Integration: Automatically builds and tests the application whenever changes are added through Git.
 Monitoring and Continuous Deployment: These aspects also play a significant role in the development process.
-7.Now assume that you have to deploy your code for production. 
+
+7. Now assume that you have to deploy your code for production. 
 
 What are the unit, functional & integrity tests that you will write in order to test the integrity of the code base
 What would be the success criteria for the backend & how will you measure them objectively?
@@ -158,19 +160,19 @@ Regular performance testing can be conducted to measure response times, throughp
 
 3.  HLD, DB schema & API schema for my codebase:-
 
-## PRODUCT AND WAREHOUSE CATALOG:-
+ PRODUCT AND WAREHOUSE CATALOG:-
 https://github-production-user-asset-6210df.s3.amazonaws.com/88622657/251939348-5b11dc99-f6b4-4c9b-8a06-95b4a14525f2.png
 
-## VIEW STATE 
+VIEW STATE 
 https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/d355dd2e-18e9-47b5-89ec-2fd439faf02f
 
-## VIEW ORDERS
+VIEW ORDERS
 https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/04dc9b4a-a3c1-4293-bf94-168fc59fa5ae
 
-## LIST PRODUCTS
+LIST PRODUCTS
 https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/d35799b2-146f-4c11-bec2-b9781046d09A
 
-## LIST WAREHOUSE
+LIST WAREHOUSE
 https://github.com/rahimunshaik/GoKart_CC_BE_Assignment/assets/88622657/6dff4a76-a8a2-402d-b3a2-9701ae9cc5c1
 
 8.What is the coolest piece of tech you have come across? What made it so cool?
@@ -185,7 +187,7 @@ While I was in college, I worked on a minor project called "Automatic Bill Gener
 
 
 
-##Developer 
+## Developer 
 Shaik Rahimun
 
 
